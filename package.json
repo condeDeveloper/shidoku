@@ -1,0 +1,15 @@
+{
+  "name": "shidoku",
+  "version": "1.0.0",
+  "description": "O sudoku 4x4 varrido inteiro: as 288 grades, as classes pelo lema de Burnside, e todo quebra-cabeca de solucao unica contado por numero de dicas, em Node puro",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test testes/*.test.js",
+    "medir": "node ferramentas/medidor.js"
+  },
+  "license": "MIT",
+  "private": false
+}
